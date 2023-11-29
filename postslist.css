@@ -1,0 +1,196 @@
+body{
+  background-color: #ffeedd ;
+  background-repeat:no-repeat;
+  background-size :100%;
+}
+.scribble{
+  display: flex; 
+justify-content: space-between;
+
+
+}
+#myBtn{
+background-color:blue;
+color: aliceblue;
+margin-top:10px;
+cursor:pointer;}
+#myBtn1{
+  background-color:blue;
+  color: aliceblue;
+  margin-top:10px;
+}
+
+  
+
+.butt{
+display:flex;
+  gap:9px;
+  justify-content: center;
+  padding:30%;
+}
+.change{
+  font-family: Montez; font-size: 29px; font-style: normal; font-variant: normal; font-weight: 700;
+  color:rgb(41, 41, 172);
+
+}
+.chang{
+  font-family:Ubuntu Mono;
+  color:purple;
+}
+.post-body{
+  display:inline-flex;
+      margin:30px;
+      border-radius:10px;
+      border:1px solid #888;
+      background-color:rgb(236, 235, 235);
+      width:45%;
+      border-color:#ffeedd;
+      box-shadow:4px 4px 4px 4px rgba(0,0,0,0.2),0 4px 4px 0 rgba(0,0,0,0.2);
+      height:inherit;
+     
+     
+}
+
+.post-body:hover{
+  box-shadow:10px 10px 10px 10px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.titlename{
+  border-color:black;
+  border-right: black 1px solid;
+  text-align: center;
+  padding:10px;
+  padding-top:40px;
+  background-color:white;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+
+.headi1{
+  display: inline-block;
+  color:gray;
+  padding:10px;
+  background-color:rgb(236, 235, 235);
+  width:max-content;
+  padding-top:10px;
+}
+.posted{
+padding:10px;
+height:inherit;
+background-color:rgb(236, 235, 235);
+border-bottom-right-radius:10px;
+overflow: hidden;
+margin-left:0px;
+
+}
+.allin{
+ 
+}
+.close,.close1,.close2,.close3,.close4{
+  color:gray;
+  color:black;
+  float: right;
+  border-top-right-radius:10px;
+  cursor:pointer;
+  background-color:rgb(236, 235, 235);
+  padding-bottom:0px;
+  padding:10px;
+  margin-top:0px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+   /* Stay in place */
+  z-index: 40; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin:20%;
+  margin-left:30%;
+  margin-top:12%;
+  padding:10px;
+  border: 1px solid #888;
+  width: 20%;
+  height:13%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:6} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+
+
+.modal-header {
+  padding:0px;
+  
+  border-color:white;
+  display:flex;
+  flex-direction:row;
+  padding-left:6px;
+
+
+}
+
+.modal-body {padding: 2px 16px;
+  border-color:white;}
+   
+ .abs{
+  text-align:centre;
+  background-color:green;
+  color:#fefefe;
+  margin:10px;
+  float: left;
+  padding:10px;
+  padding-top:4px;
+      padding-bottom:4px;
+
+  }
+  .abd{
+      text-align:centre;
+      color:#fefefe;
+      background-color:red;
+      float: right;
+      margin:10px;
+      padding:10px;
+      padding-top:4px;
+      padding-bottom:4px;
+      }
+      .h2b{
+         padding-left:6px;;
+         text-align: center; 
+      }
+      .allbut{
+        display: flex;
+     justify-content: center;
+      }
+      .eclipse{
+float: right;
+cursor: pointer;
+margin-right:10px;
+margin-bottom:10px;
+
+
+}

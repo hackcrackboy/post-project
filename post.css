@@ -1,0 +1,188 @@
+body{
+    background-color: white;
+    background-repeat:no-repeat;
+    background-size :100%;
+  }
+  .scribble{
+    display: flex; 
+  justify-content: space-between;
+  
+  
+  }
+  #myBtn{
+  background-color:blue;
+  color: aliceblue;
+  margin-top:10px;
+  cursor:pointer;}
+  #myBtn1{
+    background-color:blue;
+    color: aliceblue;
+    margin-top:10px;
+  }
+.place{
+    text-align:center;
+}  
+.name{
+    float: left;
+    padding:20px;
+    font-size:25px;
+    margin-left:30px;
+    margin-right:30px;
+    
+}
+.align{
+    float:right;
+    background-color:red;
+    color:white;
+    margin:10px;
+   padding:5px;
+    padding-left:13px;
+    padding-bottom:5px;
+    padding-right:13px;
+    padding-top:4px;
+    margin-right:30px;
+    border:none;
+}
+.align1{
+    float:left;
+    text-align: center;
+    background-color:red;
+    color:white;
+    margin:10px;
+   padding:5px;
+    padding-left:13px;
+    padding-bottom:5px;
+    padding-right:13px;
+    padding-top:4px;
+    margin-right:30px;
+    border:none;
+    margin-left:30px;
+    margin-bottom:0px;
+  }
+  .scribble{
+    display: flex; 
+  justify-content: space-between;
+  
+  
+  }
+  #myBtn{
+  background-color:blue;
+  color: aliceblue;
+  margin-top:10px;
+  cursor:pointer;}
+  #myBtn1{
+    background-color:blue;
+    color: aliceblue;
+    margin-top:10px;
+  }
+  
+    
+  
+  .butt{
+  display:flex;
+    gap:9px;
+    justify-content: center;
+    padding:30%;
+  }
+  .change{
+    font-family: Montez; font-size: 29px; font-style: normal; font-variant: normal; font-weight: 700;
+    color:rgb(41, 41, 172);
+  
+  }
+  .chang{
+    font-family:Ubuntu Mono;
+    color:purple;
+  }
+.para{
+    margin:30px;
+    margin-top:90px;
+  }
+  #editContainer{
+    display:none;
+  }
+  #likedit,#liket{
+    color:red;
+    margin:50px;
+    margin-left:30px;
+    margin-bottom:0px;
+  }
+  #comment-button{
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border:none;
+    margin-left:30px;
+  }
+  #comment-input{
+    margin:20px;
+    margin-left:30px;
+   
+  }
+  .comment{
+    box-shadow:4px 8px 8px 4px rgb(236, 235, 235),0 6px 20px 0 rgb(236, 235, 235);
+    margin-left:30px;
+    
+  }
+  #liket{
+    color:black ;
+    margin-top: 0%;
+    border-color: 4px ;
+  }
+  table {
+    border-color: rgb(236, 235, 235);
+    width: 100%;
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right:30px;
+    width:70%;
+    background-color:rgb(236, 235, 235);
+    padding:5px;
+    padding-bottom:15px;
+    
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color:white;
+    border:none;
+    margin-left:30px;
+    margin-right:30px;
+    padding-left: 20px;
+  
+  }
+
+  th {
+    background-color:rgb(236, 235, 235);
+    margin:40px;
+    border:none;
+    margin-left:30px;
+    margin-right:30px;
+  
+
+  }
+   
+  #commentsbody{
+    background-color:white;
+    margin:10px;
+    border:none;
+    margin-left:30px;
+    margin-right:30px;
+    padding-left: 20px;
+  
+  }
+  tr{
+    background-color:white;
+    border:none;
+    margin-left:30px;
+    margin-right:30px;
+   padding-left: 20px;
+   
+  }
+  .extra{
+  border:none;
+
+  }
